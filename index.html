@@ -5,19 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Likes</title>
 </head>
 <body>
-    <section class="principal">
-        <div class="some">
-            <h3>Some User</h3>
-            <p id="numlikes">  3</p><span>like(s)</span>
-            <button id="btnlike" onclick="sumLike()">Like</button>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <main>
+        <div class="tit">
+            <h2>Your Feed</h2>
         </div>
-        <div class="parrafo">
-            <p>This is some filter text, it can say anytihng we like</p>
-        </div>
-    </section>
+        <section class="tarjycuadros">
+            <article class="tarjeta">
+                <div><img src="/user-circle.png" alt="Avatar"></div>
+                <div><a href="#">Add a avatar</a></div>
+                <div><span>James Doe</span></div>
+            </article>
+            <article class="cuadros">
+                <section class="feed1">
+                        <div class="some">
+                            <h3>Neil M</h3>
+                            <p id="numlikes1">  3</p><span>like(s)</span>
+                            <button id="btnlike1" onclick="sumLike1()">Like</button>
+                            
+                        </div> 
+                        <div class="parrafo">
+                            <p>I just set uo this new discord bot, let me know what you all think <a href="#">link</a></p>
+                        </div>
+                </section>
+                <section class="feed2">
+                        <div class="some">
+                            <h3>Some User</h3>
+                            <p id="numlikes2">  3</p><span>like(s)</span>
+                            <button id="btnlike2" onclick="sumLike2()">Like</button>
+                        </div>
+                        <div class="parrafo">
+                            <p>This is some filter text, it can say anytihng we like</p>
+                        </div>
+                </section>
+                <section class="feed3">
+                        <div class="some">
+                            <h3>Some User</h3>
+                            <p id="numlikes3">  3</p><span>like(s)</span>
+                            <button id="btnlike3" onclick="sumLike3()">Like</button>
+                        </div>
+                        <div class="parrafo">
+                            <p>This is some filter text, it can say anytihng we like</p>
+                        </div>
+                </section>
+            </article>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
